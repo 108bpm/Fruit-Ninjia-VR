@@ -19,7 +19,7 @@ public class fruitspawn : MonoBehaviour
     //剩余时间
     public float TimeRemin;
     //倒计时时间
-    public float CountTime;
+    public float CountTime = 60f;
     //记录开始时间
     private float StartTime;
     //重新开始UI
@@ -37,7 +37,7 @@ public class fruitspawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Init();
+        ShowRestartUI();
     }
 
     // Update is called once per frame
@@ -118,7 +118,6 @@ public class fruitspawn : MonoBehaviour
 
     private void Init()
     {
-        CountTime = 15f;
         isPlaying = true;
         TotalScore = 0;
         scoreText.text = "0";

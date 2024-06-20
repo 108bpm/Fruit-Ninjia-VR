@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - GameoverUI
+  - Bomb
+  - Apple
+  - Banana
+  - Carrot
+  - Pineapple
+  - Tomato
   layers:
   - Default
   - TransparentFX
